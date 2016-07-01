@@ -29,6 +29,9 @@
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="抽烟的狗" translatesAutoresizingMaskIntoConstraints="NO" id="0Rc-eb-zb6">
                         <rect key="frame" x="23" y="13" width="40" height="40"/>
                     </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="96o-4D-rjT">
+                        <rect key="frame" x="296" y="15" width="20" height="20"/>
+                    </activityIndicatorView>
                 </subviews>
             </tableViewCellContentView>
             <point key="canvasLocation" x="315" y="427.5"/>
