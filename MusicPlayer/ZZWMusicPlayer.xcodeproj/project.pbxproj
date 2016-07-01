@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62178FE81D17F485001B9552 /* ZWRollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62178FE71D17F485001B9552 /* ZWRollingView.m */; };
+		622FD49F1D066724000B2617 /* ZZWRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 622FD49E1D066724000B2617 /* ZZWRequestManager.m */; };
+		62579BCD1D0FF4A600DB7D2C /* XLSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62579BCC1D0FF4A600DB7D2C /* XLSphereView.m */; };
+		626E72191D07E8CA007F7818 /* OptionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E72171D07E8CA007F7818 /* OptionsTableViewCell.m */; };
+		626E721A1D07E8CA007F7818 /* OptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626E72181D07E8CA007F7818 /* OptionsTableViewCell.xib */; };
+		626E721E1D07E912007F7818 /* MyRadioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E721C1D07E912007F7818 /* MyRadioTableViewCell.m */; };
+		626E721F1D07E912007F7818 /* MyRadioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626E721D1D07E912007F7818 /* MyRadioTableViewCell.xib */; };
+		627835181D0D39F200C3FACC /* ZZWSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627835161D0D39F200C3FACC /* ZZWSearchController.m */; };
+		627835191D0D39F200C3FACC /* ZZWSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627835171D0D39F200C3FACC /* ZZWSearchController.xib */; };
+		6278351C1D0D433B00C3FACC /* ZZWBasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278351B1D0D433B00C3FACC /* ZZWBasicModel.m */; };
+		6278351F1D0D438000C3FACC /* ZZWSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278351E1D0D438000C3FACC /* ZZWSearchModel.m */; };
+		62A288141D112BBB00786094 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A2880C1D112BBB00786094 /* error.png */; };
+		62A288151D112BBB00786094 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A2880D1D112BBB00786094 /* error@2x.png */; };
+		62A288161D112BBB00786094 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A2880F1D112BBB00786094 /* MBProgressHUD+Add.m */; };
+		62A288171D112BBB00786094 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A288101D112BBB00786094 /* success.png */; };
+		62A288181D112BBB00786094 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A288111D112BBB00786094 /* success@2x.png */; };
+		62A288191D112BBB00786094 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A288131D112BBB00786094 /* UIViewController+HUD.m */; };
+		62A2881E1D11325B00786094 /* SeekResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A2881C1D11325B00786094 /* SeekResultCell.m */; };
+		62A2881F1D11325B00786094 /* SeekResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62A2881D1D11325B00786094 /* SeekResultCell.xib */; };
+		62F99D221D001C00004FE8D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D211D001C00004FE8D7 /* main.m */; };
+		62F99D251D001C00004FE8D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D241D001C00004FE8D7 /* AppDelegate.m */; };
+		62F99D2B1D001C00004FE8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F99D291D001C00004FE8D7 /* Main.storyboard */; };
+		62F99D2E1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D2C1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodeld */; };
+		62F99D301D001C00004FE8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F99D2F1D001C00004FE8D7 /* Assets.xcassets */; };
+		62F99D331D001C00004FE8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F99D311D001C00004FE8D7 /* LaunchScreen.storyboard */; };
+		62F99D3E1D001C00004FE8D7 /* ZZWMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D3D1D001C00004FE8D7 /* ZZWMusicPlayerTests.m */; };
+		62F99D491D001C00004FE8D7 /* ZZWMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D481D001C00004FE8D7 /* ZZWMusicPlayerUITests.m */; };
+		62F99D581D001E90004FE8D7 /* ZZWBasicTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D571D001E90004FE8D7 /* ZZWBasicTabBarController.m */; };
+		62F99D5B1D001EB9004FE8D7 /* ZZWBasicNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D5A1D001EB9004FE8D7 /* ZZWBasicNaviController.m */; };
+		62F99D5E1D001EF7004FE8D7 /* ZZWBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D5D1D001EF7004FE8D7 /* ZZWBasicViewController.m */; };
+		62F99D611D001F78004FE8D7 /* ZZWAllSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D601D001F78004FE8D7 /* ZZWAllSongsViewController.m */; };
+		62F99D6C1D002DB9004FE8D7 /* AllSongsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F99D6A1D002DB9004FE8D7 /* AllSongsTableViewCell.m */; };
+		62F99D6D1D002DB9004FE8D7 /* AllSongsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F99D6B1D002DB9004FE8D7 /* AllSongsTableViewCell.xib */; };
+		C27A78182CA678819A90EB5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6083A618E1EBFC0A157B4FB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62F99D3A1D001C00004FE8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F99D151D001C00004FE8D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F99D1C1D001C00004FE8D7;
+			remoteInfo = ZZWMusicPlayer;
+		};
+		62F99D451D001C00004FE8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F99D151D001C00004FE8D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F99D1C1D001C00004FE8D7;
+			remoteInfo = ZZWMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50A9D00E063A86A62429732F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		62178FE61D17F485001B9552 /* ZWRollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWRollingView.h; sourceTree = "<group>"; };
+		62178FE71D17F485001B9552 /* ZWRollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWRollingView.m; sourceTree = "<group>"; };
+		622FD49D1D066724000B2617 /* ZZWRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWRequestManager.h; sourceTree = "<group>"; };
+		622FD49E1D066724000B2617 /* ZZWRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWRequestManager.m; sourceTree = "<group>"; };
+		62579BC91D0FF4A600DB7D2C /* XLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMatrix.h; sourceTree = "<group>"; };
+		62579BCA1D0FF4A600DB7D2C /* XLPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPoint.h; sourceTree = "<group>"; };
+		62579BCB1D0FF4A600DB7D2C /* XLSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSphereView.h; sourceTree = "<group>"; };
+		62579BCC1D0FF4A600DB7D2C /* XLSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSphereView.m; sourceTree = "<group>"; };
+		626E72161D07E8CA007F7818 /* OptionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsTableViewCell.h; sourceTree = "<group>"; };
+		626E72171D07E8CA007F7818 /* OptionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsTableViewCell.m; sourceTree = "<group>"; };
+		626E72181D07E8CA007F7818 /* OptionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsTableViewCell.xib; sourceTree = "<group>"; };
+		626E721B1D07E912007F7818 /* MyRadioTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRadioTableViewCell.h; sourceTree = "<group>"; };
+		626E721C1D07E912007F7818 /* MyRadioTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRadioTableViewCell.m; sourceTree = "<group>"; };
+		626E721D1D07E912007F7818 /* MyRadioTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyRadioTableViewCell.xib; sourceTree = "<group>"; };
+		627835151D0D39F200C3FACC /* ZZWSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWSearchController.h; sourceTree = "<group>"; };
+		627835161D0D39F200C3FACC /* ZZWSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWSearchController.m; sourceTree = "<group>"; };
+		627835171D0D39F200C3FACC /* ZZWSearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZWSearchController.xib; sourceTree = "<group>"; };
+		6278351A1D0D433B00C3FACC /* ZZWBasicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWBasicModel.h; sourceTree = "<group>"; };
+		6278351B1D0D433B00C3FACC /* ZZWBasicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWBasicModel.m; sourceTree = "<group>"; };
+		6278351D1D0D438000C3FACC /* ZZWSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWSearchModel.h; sourceTree = "<group>"; };
+		6278351E1D0D438000C3FACC /* ZZWSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWSearchModel.m; sourceTree = "<group>"; };
+		62A2880C1D112BBB00786094 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		62A2880D1D112BBB00786094 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		62A2880E1D112BBB00786094 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		62A2880F1D112BBB00786094 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		62A288101D112BBB00786094 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		62A288111D112BBB00786094 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		62A288121D112BBB00786094 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		62A288131D112BBB00786094 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		62A2881B1D11325B00786094 /* SeekResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeekResultCell.h; sourceTree = "<group>"; };
+		62A2881C1D11325B00786094 /* SeekResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekResultCell.m; sourceTree = "<group>"; };
+		62A2881D1D11325B00786094 /* SeekResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeekResultCell.xib; sourceTree = "<group>"; };
+		62F99D1D1D001C00004FE8D7 /* ZZWMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZWMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F99D211D001C00004FE8D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62F99D231D001C00004FE8D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62F99D241D001C00004FE8D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62F99D2A1D001C00004FE8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62F99D2D1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZZWMusicPlayer.xcdatamodel; sourceTree = "<group>"; };
+		62F99D2F1D001C00004FE8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F99D321D001C00004FE8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62F99D341D001C00004FE8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F99D391D001C00004FE8D7 /* ZZWMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZWMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F99D3D1D001C00004FE8D7 /* ZZWMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWMusicPlayerTests.m; sourceTree = "<group>"; };
+		62F99D3F1D001C00004FE8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F99D441D001C00004FE8D7 /* ZZWMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZWMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F99D481D001C00004FE8D7 /* ZZWMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWMusicPlayerUITests.m; sourceTree = "<group>"; };
+		62F99D4A1D001C00004FE8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F99D561D001E90004FE8D7 /* ZZWBasicTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZWBasicTabBarController.h; path = ../ZZWBasicTabBarController.h; sourceTree = "<group>"; };
+		62F99D571D001E90004FE8D7 /* ZZWBasicTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZWBasicTabBarController.m; path = ../ZZWBasicTabBarController.m; sourceTree = "<group>"; };
+		62F99D591D001EB9004FE8D7 /* ZZWBasicNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZWBasicNaviController.h; path = ../ZZWBasicNaviController.h; sourceTree = "<group>"; };
+		62F99D5A1D001EB9004FE8D7 /* ZZWBasicNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZWBasicNaviController.m; path = ../ZZWBasicNaviController.m; sourceTree = "<group>"; };
+		62F99D5C1D001EF7004FE8D7 /* ZZWBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZWBasicViewController.h; path = ../ZZWBasicViewController.h; sourceTree = "<group>"; };
+		62F99D5D1D001EF7004FE8D7 /* ZZWBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZWBasicViewController.m; path = ../ZZWBasicViewController.m; sourceTree = "<group>"; };
+		62F99D5F1D001F78004FE8D7 /* ZZWAllSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZWAllSongsViewController.h; path = ../../../ZZWAllSongsViewController.h; sourceTree = "<group>"; };
+		62F99D601D001F78004FE8D7 /* ZZWAllSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZWAllSongsViewController.m; path = ../../../ZZWAllSongsViewController.m; sourceTree = "<group>"; };
+		62F99D681D00244F004FE8D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		62F99D691D002DB9004FE8D7 /* AllSongsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllSongsTableViewCell.h; sourceTree = "<group>"; };
+		62F99D6A1D002DB9004FE8D7 /* AllSongsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllSongsTableViewCell.m; sourceTree = "<group>"; };
+		62F99D6B1D002DB9004FE8D7 /* AllSongsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllSongsTableViewCell.xib; sourceTree = "<group>"; };
+		DBB0E89102F518C64659BC8D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F6083A618E1EBFC0A157B4FB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F99D1A1D001C00004FE8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A78182CA678819A90EB5F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F99D361D001C00004FE8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F99D411D001C00004FE8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D68422EC291E3ED0070E4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBB0E89102F518C64659BC8D /* Pods.debug.xcconfig */,
+				50A9D00E063A86A62429732F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		413E87DAC30F00E02FA67C35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6083A618E1EBFC0A157B4FB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62178FE51D17F459001B9552 /* ZWRollingView */ = {
+			isa = PBXGroup;
+			children = (
+				62178FE61D17F485001B9552 /* ZWRollingView.h */,
+				62178FE71D17F485001B9552 /* ZWRollingView.m */,
+			);
+			name = ZWRollingView;
+			path = SphereView;
+			sourceTree = "<group>";
+		};
+		62579BC71D0FF47D00DB7D2C /* Otherhelps */ = {
+			isa = PBXGroup;
+			children = (
+				62178FE51D17F459001B9552 /* ZWRollingView */,
+				62A2881A1D112BCF00786094 /* MBProgressHUD+ */,
+				62579BC81D0FF4A600DB7D2C /* SphereView */,
+			);
+			name = Otherhelps;
+			sourceTree = "<group>";
+		};
+		62579BC81D0FF4A600DB7D2C /* SphereView */ = {
+			isa = PBXGroup;
+			children = (
+				62579BC91D0FF4A600DB7D2C /* XLMatrix.h */,
+				62579BCA1D0FF4A600DB7D2C /* XLPoint.h */,
+				62579BCB1D0FF4A600DB7D2C /* XLSphereView.h */,
+				62579BCC1D0FF4A600DB7D2C /* XLSphereView.m */,
+			);
+			path = SphereView;
+			sourceTree = "<group>";
+		};
+		62A2881A1D112BCF00786094 /* MBProgressHUD+ */ = {
+			isa = PBXGroup;
+			children = (
+				62A2880C1D112BBB00786094 /* error.png */,
+				62A2880D1D112BBB00786094 /* error@2x.png */,
+				62A2880E1D112BBB00786094 /* MBProgressHUD+Add.h */,
+				62A2880F1D112BBB00786094 /* MBProgressHUD+Add.m */,
+				62A288101D112BBB00786094 /* success.png */,
+				62A288111D112BBB00786094 /* success@2x.png */,
+				62A288121D112BBB00786094 /* UIViewController+HUD.h */,
+				62A288131D112BBB00786094 /* UIViewController+HUD.m */,
+			);
+			name = "MBProgressHUD+";
+			sourceTree = "<group>";
+		};
+		62A2887B1D138CA500786094 /* Myservice */ = {
+			isa = PBXGroup;
+			children = (
+				622FD49D1D066724000B2617 /* ZZWRequestManager.h */,
+				622FD49E1D066724000B2617 /* ZZWRequestManager.m */,
+			);
+			name = Myservice;
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		62F99D141D001C00004FE8D7 = {
+			isa = PBXGroup;
+			children = (
+				62F99D1F1D001C00004FE8D7 /* ZZWMusicPlayer */,
+				62F99D3C1D001C00004FE8D7 /* ZZWMusicPlayerTests */,
+				62F99D471D001C00004FE8D7 /* ZZWMusicPlayerUITests */,
+				62F99D1E1D001C00004FE8D7 /* Products */,
+				06D68422EC291E3ED0070E4C /* Pods */,
+				413E87DAC30F00E02FA67C35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62F99D1E1D001C00004FE8D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D1D1D001C00004FE8D7 /* ZZWMusicPlayer.app */,
+				62F99D391D001C00004FE8D7 /* ZZWMusicPlayerTests.xctest */,
+				62F99D441D001C00004FE8D7 /* ZZWMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F99D1F1D001C00004FE8D7 /* ZZWMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D621D0022F7004FE8D7 /* code */,
+				62F99D231D001C00004FE8D7 /* AppDelegate.h */,
+				62F99D241D001C00004FE8D7 /* AppDelegate.m */,
+				62F99D291D001C00004FE8D7 /* Main.storyboard */,
+				62F99D2F1D001C00004FE8D7 /* Assets.xcassets */,
+				62F99D311D001C00004FE8D7 /* LaunchScreen.storyboard */,
+				62F99D341D001C00004FE8D7 /* Info.plist */,
+				62F99D2C1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodeld */,
+				62F99D201D001C00004FE8D7 /* Supporting Files */,
+			);
+			path = ZZWMusicPlayer;
+			sourceTree = "<group>";
+		};
+		62F99D201D001C00004FE8D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D211D001C00004FE8D7 /* main.m */,
+				62F99D681D00244F004FE8D7 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F99D3C1D001C00004FE8D7 /* ZZWMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D3D1D001C00004FE8D7 /* ZZWMusicPlayerTests.m */,
+				62F99D3F1D001C00004FE8D7 /* Info.plist */,
+			);
+			path = ZZWMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		62F99D471D001C00004FE8D7 /* ZZWMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D481D001C00004FE8D7 /* ZZWMusicPlayerUITests.m */,
+				62F99D4A1D001C00004FE8D7 /* Info.plist */,
+			);
+			path = ZZWMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		62F99D621D0022F7004FE8D7 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				62579BC71D0FF47D00DB7D2C /* Otherhelps */,
+				62F99D671D00230C004FE8D7 /* Base */,
+				62F99D631D0022F7004FE8D7 /* Main */,
+				62A2887B1D138CA500786094 /* Myservice */,
+			);
+			name = code;
+			path = "工程";
+			sourceTree = "<group>";
+		};
+		62F99D631D0022F7004FE8D7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D641D0022F7004FE8D7 /* Controller */,
+				62F99D651D0022F7004FE8D7 /* Model */,
+				62F99D661D0022F7004FE8D7 /* View */,
+			);
+			name = Main;
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		62F99D641D0022F7004FE8D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D5F1D001F78004FE8D7 /* ZZWAllSongsViewController.h */,
+				62F99D601D001F78004FE8D7 /* ZZWAllSongsViewController.m */,
+				627835151D0D39F200C3FACC /* ZZWSearchController.h */,
+				627835161D0D39F200C3FACC /* ZZWSearchController.m */,
+				627835171D0D39F200C3FACC /* ZZWSearchController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62F99D651D0022F7004FE8D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6278351D1D0D438000C3FACC /* ZZWSearchModel.h */,
+				6278351E1D0D438000C3FACC /* ZZWSearchModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62F99D661D0022F7004FE8D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D691D002DB9004FE8D7 /* AllSongsTableViewCell.h */,
+				62F99D6A1D002DB9004FE8D7 /* AllSongsTableViewCell.m */,
+				62F99D6B1D002DB9004FE8D7 /* AllSongsTableViewCell.xib */,
+				626E72161D07E8CA007F7818 /* OptionsTableViewCell.h */,
+				626E72171D07E8CA007F7818 /* OptionsTableViewCell.m */,
+				626E72181D07E8CA007F7818 /* OptionsTableViewCell.xib */,
+				626E721B1D07E912007F7818 /* MyRadioTableViewCell.h */,
+				626E721C1D07E912007F7818 /* MyRadioTableViewCell.m */,
+				626E721D1D07E912007F7818 /* MyRadioTableViewCell.xib */,
+				62A2881B1D11325B00786094 /* SeekResultCell.h */,
+				62A2881C1D11325B00786094 /* SeekResultCell.m */,
+				62A2881D1D11325B00786094 /* SeekResultCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62F99D671D00230C004FE8D7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				62F99D561D001E90004FE8D7 /* ZZWBasicTabBarController.h */,
+				62F99D571D001E90004FE8D7 /* ZZWBasicTabBarController.m */,
+				62F99D591D001EB9004FE8D7 /* ZZWBasicNaviController.h */,
+				62F99D5A1D001EB9004FE8D7 /* ZZWBasicNaviController.m */,
+				62F99D5C1D001EF7004FE8D7 /* ZZWBasicViewController.h */,
+				62F99D5D1D001EF7004FE8D7 /* ZZWBasicViewController.m */,
+				6278351A1D0D433B00C3FACC /* ZZWBasicModel.h */,
+				6278351B1D0D433B00C3FACC /* ZZWBasicModel.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F99D1C1D001C00004FE8D7 /* ZZWMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F99D4D1D001C00004FE8D7 /* Build configuration list for PBXNativeTarget "ZZWMusicPlayer" */;
+			buildPhases = (
+				6FE63AD7B94D84DA95D57007 /* Check Pods Manifest.lock */,
+				62F99D191D001C00004FE8D7 /* Sources */,
+				62F99D1A1D001C00004FE8D7 /* Frameworks */,
+				62F99D1B1D001C00004FE8D7 /* Resources */,
+				CA36090EC32F8EB299605962 /* Embed Pods Frameworks */,
+				D95082A63535F21A5D635550 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZWMusicPlayer;
+			productName = ZZWMusicPlayer;
+			productReference = 62F99D1D1D001C00004FE8D7 /* ZZWMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F99D381D001C00004FE8D7 /* ZZWMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F99D501D001C00004FE8D7 /* Build configuration list for PBXNativeTarget "ZZWMusicPlayerTests" */;
+			buildPhases = (
+				62F99D351D001C00004FE8D7 /* Sources */,
+				62F99D361D001C00004FE8D7 /* Frameworks */,
+				62F99D371D001C00004FE8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F99D3B1D001C00004FE8D7 /* PBXTargetDependency */,
+			);
+			name = ZZWMusicPlayerTests;
+			productName = ZZWMusicPlayerTests;
+			productReference = 62F99D391D001C00004FE8D7 /* ZZWMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62F99D431D001C00004FE8D7 /* ZZWMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F99D531D001C00004FE8D7 /* Build configuration list for PBXNativeTarget "ZZWMusicPlayerUITests" */;
+			buildPhases = (
+				62F99D401D001C00004FE8D7 /* Sources */,
+				62F99D411D001C00004FE8D7 /* Frameworks */,
+				62F99D421D001C00004FE8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F99D461D001C00004FE8D7 /* PBXTargetDependency */,
+			);
+			name = ZZWMusicPlayerUITests;
+			productName = ZZWMusicPlayerUITests;
+			productReference = 62F99D441D001C00004FE8D7 /* ZZWMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F99D151D001C00004FE8D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zzw;
+				TargetAttributes = {
+					62F99D1C1D001C00004FE8D7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W2U3QJD426;
+					};
+					62F99D381D001C00004FE8D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 62F99D1C1D001C00004FE8D7;
+					};
+					62F99D431D001C00004FE8D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 62F99D1C1D001C00004FE8D7;
+					};
+				};
+			};
+			buildConfigurationList = 62F99D181D001C00004FE8D7 /* Build configuration list for PBXProject "ZZWMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F99D141D001C00004FE8D7;
+			productRefGroup = 62F99D1E1D001C00004FE8D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F99D1C1D001C00004FE8D7 /* ZZWMusicPlayer */,
+				62F99D381D001C00004FE8D7 /* ZZWMusicPlayerTests */,
+				62F99D431D001C00004FE8D7 /* ZZWMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F99D1B1D001C00004FE8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F99D6D1D002DB9004FE8D7 /* AllSongsTableViewCell.xib in Resources */,
+				62A288181D112BBB00786094 /* success@2x.png in Resources */,
+				626E721A1D07E8CA007F7818 /* OptionsTableViewCell.xib in Resources */,
+				62F99D331D001C00004FE8D7 /* LaunchScreen.storyboard in Resources */,
+				62A288151D112BBB00786094 /* error@2x.png in Resources */,
+				62F99D301D001C00004FE8D7 /* Assets.xcassets in Resources */,
+				62A2881F1D11325B00786094 /* SeekResultCell.xib in Resources */,
+				62F99D2B1D001C00004FE8D7 /* Main.storyboard in Resources */,
+				626E721F1D07E912007F7818 /* MyRadioTableViewCell.xib in Resources */,
+				62A288171D112BBB00786094 /* success.png in Resources */,
+				62A288141D112BBB00786094 /* error.png in Resources */,
+				627835191D0D39F200C3FACC /* ZZWSearchController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F99D371D001C00004FE8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F99D421D001C00004FE8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FE63AD7B94D84DA95D57007 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA36090EC32F8EB299605962 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95082A63535F21A5D635550 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F99D191D001C00004FE8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A288191D112BBB00786094 /* UIViewController+HUD.m in Sources */,
+				62F99D6C1D002DB9004FE8D7 /* AllSongsTableViewCell.m in Sources */,
+				627835181D0D39F200C3FACC /* ZZWSearchController.m in Sources */,
+				62F99D2E1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodeld in Sources */,
+				626E72191D07E8CA007F7818 /* OptionsTableViewCell.m in Sources */,
+				622FD49F1D066724000B2617 /* ZZWRequestManager.m in Sources */,
+				62F99D611D001F78004FE8D7 /* ZZWAllSongsViewController.m in Sources */,
+				62178FE81D17F485001B9552 /* ZWRollingView.m in Sources */,
+				62F99D5E1D001EF7004FE8D7 /* ZZWBasicViewController.m in Sources */,
+				62A288161D112BBB00786094 /* MBProgressHUD+Add.m in Sources */,
+				62F99D251D001C00004FE8D7 /* AppDelegate.m in Sources */,
+				6278351C1D0D433B00C3FACC /* ZZWBasicModel.m in Sources */,
+				62579BCD1D0FF4A600DB7D2C /* XLSphereView.m in Sources */,
+				62A2881E1D11325B00786094 /* SeekResultCell.m in Sources */,
+				62F99D581D001E90004FE8D7 /* ZZWBasicTabBarController.m in Sources */,
+				62F99D221D001C00004FE8D7 /* main.m in Sources */,
+				626E721E1D07E912007F7818 /* MyRadioTableViewCell.m in Sources */,
+				62F99D5B1D001EB9004FE8D7 /* ZZWBasicNaviController.m in Sources */,
+				6278351F1D0D438000C3FACC /* ZZWSearchModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F99D351D001C00004FE8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F99D3E1D001C00004FE8D7 /* ZZWMusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F99D401D001C00004FE8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F99D491D001C00004FE8D7 /* ZZWMusicPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F99D3B1D001C00004FE8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F99D1C1D001C00004FE8D7 /* ZZWMusicPlayer */;
+			targetProxy = 62F99D3A1D001C00004FE8D7 /* PBXContainerItemProxy */;
+		};
+		62F99D461D001C00004FE8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F99D1C1D001C00004FE8D7 /* ZZWMusicPlayer */;
+			targetProxy = 62F99D451D001C00004FE8D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62F99D291D001C00004FE8D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F99D2A1D001C00004FE8D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62F99D311D001C00004FE8D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F99D321D001C00004FE8D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F99D4B1D001C00004FE8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F99D4C1D001C00004FE8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F99D4E1D001C00004FE8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB0E89102F518C64659BC8D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZWMusicPlayer/PrefixHeader.pch";
+				INFOPLIST_FILE = ZZWMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzw.ZZWMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		62F99D4F1D001C00004FE8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A9D00E063A86A62429732F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZWMusicPlayer/PrefixHeader.pch";
+				INFOPLIST_FILE = ZZWMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzw.ZZWMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		62F99D511D001C00004FE8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZWMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzw.ZZWMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZWMusicPlayer.app/ZZWMusicPlayer";
+			};
+			name = Debug;
+		};
+		62F99D521D001C00004FE8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZWMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzw.ZZWMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZWMusicPlayer.app/ZZWMusicPlayer";
+			};
+			name = Release;
+		};
+		62F99D541D001C00004FE8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZWMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzw.ZZWMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZWMusicPlayer;
+			};
+			name = Debug;
+		};
+		62F99D551D001C00004FE8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZWMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzw.ZZWMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZWMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F99D181D001C00004FE8D7 /* Build configuration list for PBXProject "ZZWMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F99D4B1D001C00004FE8D7 /* Debug */,
+				62F99D4C1D001C00004FE8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F99D4D1D001C00004FE8D7 /* Build configuration list for PBXNativeTarget "ZZWMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F99D4E1D001C00004FE8D7 /* Debug */,
+				62F99D4F1D001C00004FE8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F99D501D001C00004FE8D7 /* Build configuration list for PBXNativeTarget "ZZWMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F99D511D001C00004FE8D7 /* Debug */,
+				62F99D521D001C00004FE8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F99D531D001C00004FE8D7 /* Build configuration list for PBXNativeTarget "ZZWMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F99D541D001C00004FE8D7 /* Debug */,
+				62F99D551D001C00004FE8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62F99D2C1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62F99D2D1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodel */,
+			);
+			currentVersion = 62F99D2D1D001C00004FE8D7 /* ZZWMusicPlayer.xcdatamodel */;
+			path = ZZWMusicPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62F99D151D001C00004FE8D7 /* Project object */;
+}
